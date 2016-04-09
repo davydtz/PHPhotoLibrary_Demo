@@ -1,2 +1,2 @@
-# DDPhotoPicker
-仿写天猫iOS客户端选取图片的公能。
+# DDPhotoPicker #
+仿写天猫iOS客户端评价商品时选取相册图片的功能。
