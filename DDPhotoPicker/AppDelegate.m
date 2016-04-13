@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "CommentViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,6 +16,8 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    self.window.rootViewController = [CommentViewController new];
+    [self.window makeKeyAndVisible];
     // Override point for customization after application launch.
     return YES;
 }

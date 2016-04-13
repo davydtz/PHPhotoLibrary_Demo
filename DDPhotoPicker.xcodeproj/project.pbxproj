@@ -9,10 +9,11 @@
 /* Begin PBXBuildFile section */
 		5B273E2D1CB89FB900699176 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B273E2C1CB89FB900699176 /* main.m */; };
 		5B273E301CB89FB900699176 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B273E2F1CB89FB900699176 /* AppDelegate.m */; };
-		5B273E331CB89FB900699176 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B273E321CB89FB900699176 /* ViewController.m */; };
 		5B273E361CB89FB900699176 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B273E341CB89FB900699176 /* Main.storyboard */; };
 		5B273E381CB89FB900699176 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B273E371CB89FB900699176 /* Assets.xcassets */; };
 		5B273E3B1CB89FB900699176 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B273E391CB89FB900699176 /* LaunchScreen.storyboard */; };
+		5B273E491CB8A12200699176 /* CommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B273E481CB8A12200699176 /* CommentViewController.m */; };
+		5B273E4D1CB8A31800699176 /* PhotoPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B273E4C1CB8A31800699176 /* PhotoPickerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +21,14 @@
 		5B273E2C1CB89FB900699176 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5B273E2E1CB89FB900699176 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5B273E2F1CB89FB900699176 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5B273E311CB89FB900699176 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5B273E321CB89FB900699176 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5B273E351CB89FB900699176 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5B273E371CB89FB900699176 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B273E3A1CB89FB900699176 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B273E3C1CB89FB900699176 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B273E471CB8A12200699176 /* CommentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentViewController.h; sourceTree = "<group>"; };
+		5B273E481CB8A12200699176 /* CommentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentViewController.m; sourceTree = "<group>"; };
+		5B273E4B1CB8A31800699176 /* PhotoPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoPickerViewController.h; sourceTree = "<group>"; };
+		5B273E4C1CB8A31800699176 /* PhotoPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoPickerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +61,10 @@
 		5B273E2A1CB89FB900699176 /* DDPhotoPicker */ = {
 			isa = PBXGroup;
 			children = (
+				5B273E461CB8A12200699176 /* Comment(评价界面) */,
+				5B273E4A1CB8A30900699176 /* PhotoPicker(选取照片) */,
 				5B273E2E1CB89FB900699176 /* AppDelegate.h */,
 				5B273E2F1CB89FB900699176 /* AppDelegate.m */,
-				5B273E311CB89FB900699176 /* ViewController.h */,
-				5B273E321CB89FB900699176 /* ViewController.m */,
 				5B273E341CB89FB900699176 /* Main.storyboard */,
 				5B273E371CB89FB900699176 /* Assets.xcassets */,
 				5B273E391CB89FB900699176 /* LaunchScreen.storyboard */,
@@ -77,6 +80,24 @@
 				5B273E2C1CB89FB900699176 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5B273E461CB8A12200699176 /* Comment(评价界面) */ = {
+			isa = PBXGroup;
+			children = (
+				5B273E471CB8A12200699176 /* CommentViewController.h */,
+				5B273E481CB8A12200699176 /* CommentViewController.m */,
+			);
+			path = "Comment(评价界面)";
+			sourceTree = "<group>";
+		};
+		5B273E4A1CB8A30900699176 /* PhotoPicker(选取照片) */ = {
+			isa = PBXGroup;
+			children = (
+				5B273E4B1CB8A31800699176 /* PhotoPickerViewController.h */,
+				5B273E4C1CB8A31800699176 /* PhotoPickerViewController.m */,
+			);
+			path = "PhotoPicker(选取照片)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,7 +170,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B273E331CB89FB900699176 /* ViewController.m in Sources */,
+				5B273E491CB8A12200699176 /* CommentViewController.m in Sources */,
+				5B273E4D1CB8A31800699176 /* PhotoPickerViewController.m in Sources */,
 				5B273E301CB89FB900699176 /* AppDelegate.m in Sources */,
 				5B273E2D1CB89FB900699176 /* main.m in Sources */,
 			);
@@ -298,6 +320,7 @@
 				5B273E411CB89FB900699176 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
