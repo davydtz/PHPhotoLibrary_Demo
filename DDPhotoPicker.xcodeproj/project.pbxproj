@@ -14,6 +14,8 @@
 		5B273E3B1CB89FB900699176 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B273E391CB89FB900699176 /* LaunchScreen.storyboard */; };
 		5B273E491CB8A12200699176 /* CommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B273E481CB8A12200699176 /* CommentViewController.m */; };
 		5B273E4D1CB8A31800699176 /* PhotoPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B273E4C1CB8A31800699176 /* PhotoPickerViewController.m */; };
+		5B70D45F1CBF1CE1007E3BFC /* PhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B70D45E1CBF1CE1007E3BFC /* PhotoCell.m */; };
+		5B70D4621CBF24C0007E3BFC /* PhotoCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B70D4611CBF24C0007E3BFC /* PhotoCollectionViewFlowLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,10 @@
 		5B273E481CB8A12200699176 /* CommentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentViewController.m; sourceTree = "<group>"; };
 		5B273E4B1CB8A31800699176 /* PhotoPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoPickerViewController.h; sourceTree = "<group>"; };
 		5B273E4C1CB8A31800699176 /* PhotoPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoPickerViewController.m; sourceTree = "<group>"; };
+		5B70D45D1CBF1CE1007E3BFC /* PhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCell.h; sourceTree = "<group>"; };
+		5B70D45E1CBF1CE1007E3BFC /* PhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCell.m; sourceTree = "<group>"; };
+		5B70D4601CBF24C0007E3BFC /* PhotoCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhotoCollectionViewFlowLayout.h; path = ../../PhotoCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		5B70D4611CBF24C0007E3BFC /* PhotoCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhotoCollectionViewFlowLayout.m; path = ../../PhotoCollectionViewFlowLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,10 @@
 			children = (
 				5B273E4B1CB8A31800699176 /* PhotoPickerViewController.h */,
 				5B273E4C1CB8A31800699176 /* PhotoPickerViewController.m */,
+				5B70D4601CBF24C0007E3BFC /* PhotoCollectionViewFlowLayout.h */,
+				5B70D4611CBF24C0007E3BFC /* PhotoCollectionViewFlowLayout.m */,
+				5B70D45D1CBF1CE1007E3BFC /* PhotoCell.h */,
+				5B70D45E1CBF1CE1007E3BFC /* PhotoCell.m */,
 			);
 			path = "PhotoPicker(选取照片)";
 			sourceTree = "<group>";
@@ -170,8 +180,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B70D45F1CBF1CE1007E3BFC /* PhotoCell.m in Sources */,
 				5B273E491CB8A12200699176 /* CommentViewController.m in Sources */,
 				5B273E4D1CB8A31800699176 /* PhotoPickerViewController.m in Sources */,
+				5B70D4621CBF24C0007E3BFC /* PhotoCollectionViewFlowLayout.m in Sources */,
 				5B273E301CB89FB900699176 /* AppDelegate.m in Sources */,
 				5B273E2D1CB89FB900699176 /* main.m in Sources */,
 			);
